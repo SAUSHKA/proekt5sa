@@ -148,19 +148,30 @@ h1::after{
     margin-left: 5px;
 }
 
-.address::before{
+.address{
     content: url("https://learn.logikaschool.com/uploads/student/4765917/678a8a243f852.png");
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
-.tel::before{
-    content: url("https://learn.logikaschool.com/uploads/student/4757088/6783b92496218.png");
-    width: 20px;
-    height: 20px;
+.tel{
+    content: url("https://learn.logikaschool.com/uploads/student/4784470/678a96910ff18.png");
+    width: 25px;
+    height: 25px;
 }
 
 h1:hover{
     color: #133aac;
     opacity: 0.6;
+}
+
+.post:hover{
+    position: relative;
+    font-style: italic;
+    background-color: aqua;
+}
+
+aside:hover{
+    background-color: sandybrown;
+    color: #590f92;
 }
